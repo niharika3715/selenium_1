@@ -1,0 +1,104 @@
+{
+  "id": "6db43984-155c-4223-a46e-282101488079",
+  "version": "2.0",
+  "name": "27",
+  "url": "https://www.freefullpdf.com/",
+  "tests": [{
+    "id": "c89331dd-1bdc-40d1-a0a9-767cbb6df114",
+    "name": "done",
+    "commands": [{
+      "id": "9fd8aa45-ea49-4d16-8e87-b96276bcdccd",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.freefullpdf.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8d2d5033-337a-4cc8-941b-f684fa10caaf",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1200x761",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4af5fc1b-1550-4c0c-b82a-08ed17a8cc6b",
+      "comment": "",
+      "command": "click",
+      "target": "id=ea-header-5290",
+      "targets": [
+        ["id=ea-header-5290", "id"],
+        ["linkText=Electronic & Computer Engineering", "linkText"],
+        ["css=#ea-header-5290", "css:finder"],
+        ["xpath=//a[contains(text(),'Electronic & Computer Engineering')]", "xpath:link"],
+        ["xpath=//a[@id='ea-header-5290']", "xpath:attributes"],
+        ["xpath=//div[@id='sp-ea-529']/div/h3/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:void(0)')])[2]", "xpath:href"],
+        ["xpath=//h3/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Electronic & Computer Engineering')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "708b1b08-d41e-4df9-9957-fc6fc817c652",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Wafer level packaging",
+      "targets": [
+        ["linkText=Wafer level packaging", "linkText"],
+        ["css=#collapse5290 td:nth-child(1) li:nth-child(6) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Wafer level packaging')]", "xpath:link"],
+        ["xpath=//div[@id='collapse5290']/div/table/tbody/tr/td/ul/li[6]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://freefullpdf.com/search_gcse/?q=Wafer%20level%20packaging#gsc.tab=0&gsc.q=Wafer%20level%20packaging&gsc.page=1')]", "xpath:href"],
+        ["xpath=//li[6]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Wafer level packaging')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "eb7d355a-7dfd-4fd9-aa60-d4631d865cc9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.gsc-selected-option",
+      "targets": [
+        ["css=.gsc-selected-option", "css:finder"],
+        ["xpath=//div[@id='___gcse_0']/div/div/div/div[3]/table/tbody/tr/td[2]/div/div[2]/div/div", "xpath:idRelative"],
+        ["xpath=//td[2]/div/div[2]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d83ef6f2-594c-4fb6-8f79-b5074cc31eee",
+      "comment": "",
+      "command": "click",
+      "target": "css=.gsc-option-menu-item:nth-child(2) > .gsc-option",
+      "targets": [
+        ["css=.gsc-option-menu-item:nth-child(2) > .gsc-option", "css:finder"],
+        ["xpath=//div[@id='___gcse_0']/div/div/div/div[3]/table/tbody/tr/td[2]/div/div[2]/div[2]/div[2]/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5c244d95-45a5-4663-9d59-4e5d8b080b78",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Micro-transfer printing of thick optical components using a tether-free ...",
+      "targets": [
+        ["linkText=Micro-transfer printing of thick optical components using a tether-free ...", "linkText"],
+        ["css=.gsc-webResult:nth-child(1) > .gs-webResult > .gsc-thumbnail-inside > .gs-title > .gs-title", "css:finder"],
+        ["xpath=//a[contains(text(),'Micro-transfer printing of thick optical components using a tether-free ...')]", "xpath:link"],
+        ["xpath=//div[@id='___gcse_0']/div/div/div/div[5]/div[2]/div/div/div/div/div/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.google.com/url?client=internal-element-cse&cx=001431978847466539083:xsldadcvvvo&q=https://www.spiedigitallibrary.org/journals/journal-of-optical-microsystems/volume-4/issue-1/011003/Micro-transfer-printing-of-thick-optical-components-using-a-tether/10.1117/1.JOM.4.1.011003.pdf&sa=U&ved=2ahUKEwiSh4TWnt2EAxXBdPUHHVXSBZEQFnoECAYQAg&usg=AOvVaw13bzQyGgopei8ucyoUzrvH')]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div/div/div/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Micro-transfer printing of thick optical components using a tether-free ...')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "12627d91-16d1-411b-be5a-bc54e8b6a227",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["c89331dd-1bdc-40d1-a0a9-767cbb6df114"]
+  }],
+  "urls": [],
+  "plugins": []
+}
